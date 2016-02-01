@@ -11,4 +11,4 @@ Just a simple docker image based on Ubuntu 14.04 (trusty) where one can execute 
 
 The docker run command will mount the current working directory on your local machine on /workdir on the docker
 instance, and run blender using the blender and python file defined. You should assure that you output files to the
-*/workdir* so that it will be avilable on your local machine.
+*/workdir* or its descendants so that it will be avilable on your local machine.
